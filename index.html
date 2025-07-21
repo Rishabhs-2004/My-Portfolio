@@ -47,94 +47,63 @@
 
   <!-- Hero Section -->
   <section class="hero" id="home">
-    <div class="hero-content">
-      <div class="hero-photo">
-        <img src="WhatsApp Image 2024-11-07 at 15.37.52_7412203b.jpg" alt="Rishabh Singh's Professional Photo" loading="lazy" />
-        <div class="photo-overlay">
-          <i class="fas fa-user"></i>
-        </div>
-      </div>
-      <div class="hero-content-text">
-        <h1>Hi, I'm <span class="highlight">Rishabh Singh</span></h1>
-        <p class="subtitle">Frontend Developer & Learner</p>
-        <p class="description">I craft beautiful, responsive websites and web apps. Passionate about clean code, modern UI, and continuous learning. Let's build something amazing together!</p>
-        <div class="hero-buttons">
-          <a href="#contact" class="btn primary">Contact Me</a>
-          <a href="#projects" class="btn secondary">See Projects</a>
-          <a href="resume.pdf" class="btn resume-btn" download aria-label="Download resume">
-            <i class="fas fa-download"></i> Download Resume
-          </a>
-        </div>
-      </div>
+    <div class="hero-bg-shapes">
+      <div class="hero-bg-shape shape1"></div>
+      <div class="hero-bg-shape shape2"></div>
+      <div class="hero-bg-shape shape3"></div>
+      <div class="hero-bg-shape shape4"></div>
     </div>
-    <div class="hero-visual">
-      <div class="hero-stats">
-        <div class="stat">
-          <div class="stat-icon">
-            <i class="fas fa-code"></i>
-          </div>
-          <div class="stat-content">
-            <div class="stat-number">8+</div>
-            <div class="stat-label">Projects</div>
-          </div>
+    <div class="hero-particles"></div>
+    <div class="hero-cards">
+      <!-- Left Card: Intro -->
+      <div class="hero-card hero-card-left">
+        <div class="hero-photo-glow">
+          <img class="hero-photo-img" src="WhatsApp Image 2024-11-07 at 15.37.52_7412203b.jpg" alt="Rishabh Singh's Professional Photo" loading="lazy" />
+          <div class="photo-shine"></div>
         </div>
-        <div class="stat">
-          <div class="stat-icon">
-            <i class="fas fa-clock"></i>
+        <div class="hero-intro">
+          <h1 class="hero-name">Hi, I'm <span class="highlight">Rishabh Singh</span></h1>
+          <p class="hero-title">Frontend Developer & Learner</p>
+          <p class="hero-desc">I craft beautiful, responsive websites and web apps. Passionate about clean code, modern UI, and continuous learning. Let's build something amazing together!</p>
+          <div class="hero-btns">
+            <a href="#contact" class="btn primary"><span class="ripple"></span>Contact Me</a>
+            <a href="#projects" class="btn secondary"><span class="ripple"></span>See Projects</a>
+            <a href="resume.pdf" class="btn resume-btn" download aria-label="Download resume"><span class="ripple"></span>
+              <i class="fas fa-download"></i> Download Resume
+            </a>
           </div>
-          <div class="stat-content">
-            <div class="stat-number">Fresher</div>
-            <div class="stat-label">Experience</div>
+          <div class="hero-features-row">
+            <div class="feature-item"><i class="fas fa-check-circle"></i> Responsive Design</div>
+            <div class="feature-item"><i class="fas fa-check-circle"></i> Modern UI/UX</div>
+            <div class="feature-item"><i class="fas fa-check-circle"></i> Clean Code</div>
           </div>
-        </div>
-        <div class="stat">
-          <div class="stat-icon">
-            <i class="fas fa-star"></i>
-          </div>
-          <div class="stat-content">
-            <div class="stat-number">100%</div>
-            <div class="stat-label">Quality</div>
+          <div class="hero-mini-stats">
+            <div class="mini-stat"><i class="fas fa-folder-open"></i><span>9+<br>Projects</span></div>
+            <div class="mini-stat"><i class="fas fa-graduation-cap"></i><span>MCA<br>Degree</span></div>
+            <div class="mini-stat"><i class="fas fa-star"></i><span>100%<br>Quality</span></div>
           </div>
         </div>
       </div>
-      
-      <div class="tech-showcase">
+      <!-- Right Card: Tech Stack -->
+      <div class="hero-card hero-card-right">
+        <h3 class="tech-title">Technologies I Work With</h3>
         <div class="tech-grid">
-          <div class="tech-item">
-            <i class="fab fa-html5"></i>
-            <span>HTML5</span>
-          </div>
-          <div class="tech-item">
-            <i class="fab fa-css3-alt"></i>
-            <span>CSS3</span>
-          </div>
-          <div class="tech-item">
-            <i class="fab fa-js"></i>
-            <span>JavaScript</span>
-          </div>
-          <div class="tech-item">
-            <i class="fab fa-react"></i>
-            <span>React</span>
-          </div>
-          <div class="tech-item">
-            <i class="fab fa-node-js"></i>
-            <span>Node.js</span>
-          </div>
-          <div class="tech-item">
-            <i class="fab fa-github"></i>
-            <span>GitHub</span>
-          </div>
+          <div class="tech-item"><i class="fab fa-html5"></i><span>HTML5</span></div>
+          <div class="tech-item"><i class="fab fa-css3-alt"></i><span>CSS3</span></div>
+          <div class="tech-item"><i class="fab fa-js"></i><span>JavaScript</span></div>
+          <div class="tech-item"><i class="fab fa-react"></i><span>React</span></div>
+          <div class="tech-item"><i class="fab fa-node-js"></i><span>Node.js</span></div>
+          <div class="tech-item"><i class="fab fa-github"></i><span>GitHub</span></div>
+          <div class="tech-item"><i class="fab fa-java"></i><span>Java</span></div>
+          <div class="tech-item"><i class="fab fa-python"></i><span>Python</span></div>
         </div>
-      </div>
-      
-      <div class="floating-shapes">
-        <div class="shape shape-1"></div>
-        <div class="shape shape-2"></div>
-        <div class="shape shape-3"></div>
-        <div class="shape shape-4"></div>
       </div>
     </div>
   </section>
+  <!-- Hero SVG Wave Divider -->
+  <div class="hero-wave-divider">
+    <svg viewBox="0 0 1440 120" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M0 60C360 120 1080 0 1440 60V120H0V60Z" fill="#1e293b"/></svg>
+  </div>
 
   <!-- Skills Section -->
   <section class="skills" id="skills">
@@ -242,6 +211,21 @@
         <div class="project-tech">
           <span class="tech-tag">Various</span>
           <span class="tech-tag">Full Stack</span>
+        </div>
+        <div class="project-link">
+          View Project <i class="fas fa-arrow-right"></i>
+        </div>
+      </div>
+      <div class="project-card" data-category="web" onclick="window.open('https://github.com/Rishabhs-2004/My-Portfolio', '_blank')" style="cursor: pointer;">
+        <div class="project-image">
+          <i class="fas fa-user-tie"></i>
+        </div>
+        <h3>My-Portfolio</h3>
+        <p>Personal portfolio website showcasing my skills, projects, and professional experience with modern design and responsive layout.</p>
+        <div class="project-tech">
+          <span class="tech-tag">HTML</span>
+          <span class="tech-tag">CSS</span>
+          <span class="tech-tag">JavaScript</span>
         </div>
         <div class="project-link">
           View Project <i class="fas fa-arrow-right"></i>
@@ -518,6 +502,39 @@
       // Start typing effect after a delay
       setTimeout(typeWriter, 1000);
     }
+  </script>
+  <script>
+    // Parallax for hero-bg-shapes
+    document.addEventListener('mousemove', function(e) {
+      const shapes = document.querySelectorAll('.hero-bg-shape');
+      const x = (e.clientX / window.innerWidth - 0.5) * 40;
+      const y = (e.clientY / window.innerHeight - 0.5) * 40;
+      shapes.forEach((shape, i) => {
+        shape.style.transform = `translate(${x * (i+1) * 0.15}px, ${y * (i+1) * 0.15}px)`;
+      });
+    });
+    // Particle overlay
+    const particleContainer = document.querySelector('.hero-particles');
+    for(let i=0;i<32;i++){
+      const p = document.createElement('div');
+      p.className = 'hero-particle';
+      p.style.left = Math.random()*100+'%';
+      p.style.top = Math.random()*100+'%';
+      p.style.animationDelay = (Math.random()*4)+'s';
+      particleContainer.appendChild(p);
+    }
+    // Button ripple
+    document.querySelectorAll('.btn').forEach(btn => {
+      btn.addEventListener('click', function(e) {
+        const ripple = this.querySelector('.ripple');
+        ripple.classList.remove('show');
+        const rect = this.getBoundingClientRect();
+        ripple.style.left = (e.clientX - rect.left) + 'px';
+        ripple.style.top = (e.clientY - rect.top) + 'px';
+        ripple.classList.add('show');
+        setTimeout(()=>ripple.classList.remove('show'), 600);
+      });
+    });
   </script>
 </body>
 </html> 
